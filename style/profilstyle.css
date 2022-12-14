@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(94, 94, 94);
+    font-family: Roboto,Arial;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hatter img{
+    height: 67.5em;
+    width: 120em;
+    position: fixed;
+    margin-top: -100px;
+    z-index:-1;
+}
+.header{
+    display: grid;
+    grid-template-columns: 0px 1fr;
+    background-color: black;
+    color:white;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7e5286;
+    border-left: none;
+    border-top: none;
+    z-index: 9999;
+    box-shadow: 0px -3px 10px inset #7e5286;
+    min-width: 700px;
+}
+.foheader{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.sajatprofil{
+    display: flex;
+    align-items: center;
+}
+.profil-nev{
+    text-decoration: black;
+    color: white;
+    margin-right: 5px;
+}
+.logo{
+    width: 40px;
+}
+.home{
+    width: 40px;
+}
+.home:hover{
+    cursor: pointer;
+}
+.profil{
+    width: 39px;
+    border-radius: 50px;
+}
+.profil:hover{
+    cursor:pointer;
+}
+.kereses input{
+    height: 30px;
+    width: 300px;
+    margin: 0;
+    border-radius: 30px;
+}
+.kereses button{
+    background-color: rgb(160, 159, 159);
+    padding: 8.5px;
+    border-radius: 50px;
+}
+.kereses button:hover{
+    background-color: rgb(207, 206, 206);
+    cursor: pointer;
+}
+.sidebar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: fixed;
+    background-color: black;
+    color: white;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    padding-left:10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7e5286;
+    border-bottom: none;
+    border-left: none;
+    z-index: 9999;
+    box-shadow: -3px 0px 10px inset #7e5286;
+}
+.sidebar-ikon{
+    width: 40px;
+}
+.sidebar-ikon:hover{
+    cursor:pointer;
+}
+.profil-kartya{
+    position:static;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.tartalom{
+    min-width: 200px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
+
+.fejlec img{
+    width: 50px;
+    border-radius: 100px;
+}
+.fejlec img:hover{
+    cursor:pointer;
+}
+.fejlec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color:rgb(94, 94, 94);
+    border-bottom-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.profil-jobb{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.nev{
+    margin-right: 8px;
+    font-size: larger;
+}
+.nev:hover{
+    cursor:pointer;
+}
+.datum{
+    color: grey;
+}
+.profil-info{
+    color: rgb(190, 190, 190);
+}
+.info{
+    margin-bottom: 15px;
+}
+.orszag{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.orszag img{
+    margin-left: 8px;
+    width: 35px;
+}
+.lablec{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-style: solid;
+    border-color:rgb(94, 94, 94);
+    border-top-width: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.zene{
+    display: flex;
+    flex-direction: column;
+}
+.zene img{
+    width: 200px;
+}
+.zene-leiras{
+    display: flex;
+    flex-direction:column;
+    margin-top: 10px;
+}
+.eloado{
+    margin-top: 4px;
+    color:grey;
+}

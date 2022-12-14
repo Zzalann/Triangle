@@ -1,0 +1,285 @@
+body{
+    background-color: rgb(94, 94, 94);
+    height: 5000px;
+    font-family: Roboto,Arial;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hatter img{
+    height: 67.5em;
+    width: 120em;
+    position: fixed;
+    margin-top: 45px;
+    z-index:-1;
+}
+.header{
+    display: grid;
+    grid-template-columns: 0px 1fr;
+    background-color: black;
+    color:white;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7e5286;
+    border-left: none;
+    border-top: none;
+    z-index: 9999;
+    box-shadow: 0px -3px 10px inset #7e5286;
+    min-width: 700px;
+}
+.foheader{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.sajatprofil{
+    display: flex;
+    align-items: center;
+}
+.profil-nev{
+    color: white;
+    margin-right: 5px;
+}
+.logo{
+    width: 40px;
+}
+.home{
+    width: 40px;
+}
+.home:hover{
+    cursor: pointer;
+}
+.profil{
+    width: 39px;
+    border-radius: 50px;
+}
+.profil:hover{
+    cursor:pointer;
+}
+.kereses input{
+    height: 30px;
+    width: 300px;
+    margin: 0;
+    border-radius: 30px;
+}
+.kereses button{
+    background-color: rgb(160, 159, 159);
+    padding: 8.5px;
+    border-radius: 50px;
+}
+.kereses button:hover{
+    background-color: rgb(207, 206, 206);
+    cursor: pointer;
+}
+.sidebar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: fixed;
+    background-color: black;
+    color: white;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    padding-left:10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7e5286;
+    border-bottom: none;
+    border-left: none;
+    z-index: 9999;
+    box-shadow: -3px 0px 10px inset #7e5286;
+}
+.sidebar-ikon{
+    width: 40px;
+}
+.sidebar-ikon:hover{
+    cursor:pointer;
+}
+@media (max-width: 999px){
+    .hirfolyam{
+        margin-left:145px;
+    }
+}
+
+@media (min-width: 1000px){
+    .hirfolyam{
+        margin-left:200px;
+    }
+}
+@media (min-width: 1350px){
+    .hirfolyam{
+        margin-left:350px;
+    }
+}
+@media (min-width: 1600px){
+    .hirfolyam{
+        margin-left:600px;
+    }
+}
+@media (max-width: 850px){
+    .ismerosok{
+        visibility: hidden;
+    }
+}
+.hirfolyam{
+    display:flex;
+    flex-direction: column;
+    padding-top: 70px;
+    max-width: 500px;
+    min-width: 200px;
+
+}
+.tartalom{
+    min-width: 200px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
+
+.fejlec img{
+    width: 40px;
+    border-radius: 100px;
+}
+.fejlec img:hover{
+    cursor:pointer;
+}
+.fejlec{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color:rgb(94, 94, 94);
+    border-bottom-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.nev{
+    margin-right: 8px;
+}
+.nev:hover{
+    cursor:pointer;
+}
+.zene{
+    display: flex;
+    flex-direction: column;
+}
+.zene img{
+    width: 100%;
+}
+.zene-leiras{
+    display: flex;
+    flex-direction:column;
+    margin-top: 10px;
+}
+.cim{
+    font-size:larger;
+}
+.eloado{
+    margin-top: 4px;
+    color:grey;
+}
+.lablec{
+    display:flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color:rgb(94, 94, 94);
+    border-top-width: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.ert-ikon{
+    width: 30px;
+    margin-right: 10px;
+}
+.ert-ikon:hover{
+    cursor:pointer;
+}
+.ert-ikon1{
+    width: 25px;
+}
+.ert-ikon1:hover{
+    cursor:pointer;
+}
+.hallgasd button{
+    border-radius: 5px;
+    font-family:Roboto, Arial;
+    font-weight: 400;
+    background-color: greenyellow;
+    padding: 5px;
+    font-size: medium;
+}
+.hallgasd button:hover{
+    background-color: rgb(119, 177, 32);
+    cursor: pointer;
+}
+.ismerosok{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+    top: 130px;
+    right: 0px;
+    bottom: 60px;
+    background-color: black;
+    color:white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: inset 5px 0px 10px #7e5286;
+}
+.kiiras{
+    padding: 5px;
+    margin-bottom: 30px;
+    border-style:solid;
+    border-width: 1px;
+    border-color:rgb(94, 94, 94);
+    border-top:none;
+    border-right: none;
+    border-left: none;
+}
+.barat{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.barattulajdonsag{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.baratnev{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.baratkep{
+    width: 30px;
+    border-radius: 15px;
+}
+.elerhetoseg-ikon{
+    width: 10px;
+}
